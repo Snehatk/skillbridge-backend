@@ -1,4 +1,28 @@
+# Python cache
 __pycache__/
 *.pyc
-uploads/*.pdf
-skillbridge.db
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# Database (has real user data)
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded files (user resumes)
+uploads/*
+!uploads/.gitkeep
+
+# Python version
+.python-version
+# Build artifacts
+*.egg-info/
+dist/
+build/
