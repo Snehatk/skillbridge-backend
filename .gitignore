@@ -1,28 +1,20 @@
-# Python cache
-__pycache__/
+✅ Procfile fixed! Now run steps 2, 3, 4, 5, 6 below — one after another.
+Remaining steps — you are in backend/ folder
+2
+Fix backend .gitignore — paste this entire block at once
+Set-Content .gitignore "__pycache__/
 *.pyc
 *.pyo
-
-# Virtual environment
 venv/
 env/
 .venv/
-
-# Environment variables
 .env
-
-# Database (has real user data)
 *.db
 *.sqlite
 *.sqlite3
-
-# Uploaded files (user resumes)
 uploads/*
 !uploads/.gitkeep
-
-# Python version
 .python-version
-# Build artifacts
 *.egg-info/
 dist/
-build/
+build/"
